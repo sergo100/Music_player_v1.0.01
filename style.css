@@ -8,22 +8,27 @@ html{
 body{
     margin: 0 auto;
     height: 100%;
-    flex-direction: column;
     font-weight: 500;
     font-size: 35px;
     line-height: 43px;
     color:#FFFFFF;
     background: #000000;}
-
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .desktop1{
     width: 1440px;
     height: 1024px;
     background-image: url("/images/desktop1.jpg");
+    position: relative;
 }
 .navigation{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .logo{
     display: block;
@@ -54,11 +59,215 @@ body{
     text-align: left;
 }
 
- .text_page_heade{
-font-family: Kenia;
-font-size: 150px;
-font-weight: 400;
-line-height: 150px;
-letter-spacing: 0%;
-text-align: left;
+ .music_player_title{
+    margin-left: 115px;
+    margin-top: 291px;
+    width: 412px;
+    height: 264px;
+ }
+ .company_text{
+    margin-left: 122px;
+    margin-top: 175px;
+    width: 290px;
+    height: 63px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Istok Web;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 231px;
+ }
+ 
+ .kabel_background{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-image: url(/images/kabel.png);
+    background-repeat: no-repeat;
+    right: 177px;
+    top: 862px;
+    z-index: 1;
+ }
+  
+ .flat_iphone{
+    position: absolute;
+    right: 75px;
+    top: 127px;
+    z-index: 3
+ }
+ .desktop2{
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: rgba(213, 48, 5, 1);
+}
+.title_desktop2{
+    color: rgba(255, 255, 255, 1);
+    font-family: Karla;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 83px;
+    left: 122px;
+}
+.list_button_desktop2{
+    position: absolute;
+    top:385px;
+    left: 122px;
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    gap: 88px;
+}
+.button_desktop2{
+    color: rgba(255, 255, 255, 1);
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 382px;
+    height: 83px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.5),-4px -4px 30px 0px rgba(255, 255, 255, 0.1);
+    background: radial-gradient(2087.07% 134.42% at 2% 8%,rgba(177.44, 62.48, 24.4, 1),rgba(243, 80, 26, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background_album{
+    position: absolute;
+    width: 1000px;
+    height: 666.5px;
+    background-image: url(/images/seyi-ariyo-6YgYRcyQK_s-unsplash-PhotoRoom\ 1.png);
+    top: 179px;
+    left: 440px;
+}
+.desktop3{
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: linear-gradient(180.00deg, rgba(213, 48, 5, 1),rgba(0, 0, 0, 1) 6%);
+}
+.about_link{
+    position: absolute;
+    top: 83px;
+    left:122px;
+    text-decoration: none;
+    width: 81px;
+    height: 35px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Karla;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.text_desktop3{
+    position: absolute;
+    top: 476px;
+    left: 275px;
+    width: 969px;
+    height: 72px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Karla;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.desktop4{
+     width: 1440px;
+     height: 1024px;
+     position: relative;
+     background: rgba(213, 48, 5, 1);
+     z-index: 5;
+}
+#store_link{
+    width: 73px;
+    height: 35px;
+    
+}
+.list_desktop4{
+    position: absolute;
+    top: 254px;
+    left: 110px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.button1_desktop4{
+    width: 240px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25),-4px -4px 4px 0px rgba(255, 255, 255, 0.1);
+    background: rgba(2, 2, 2, 0.9);
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#button_macos{
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25),-4px -4px 4px 0px rgba(255, 255, 255, 0.1);
+    background: rgba(227, 227, 227, 1);
+    color: rgba(0, 0, 0, 1)
+}
+
+.old_version{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 431px;
+}
+#header_text_desktop4{
+    position: absolute;
+    top: 557px;
+    left: 25px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 419px;
+}
+#text_desktop4{
+    position: absolute;
+    top: 602px;
+    left: 19px;
+}
+#link_old_version{
+    text-decoration: none;
+    color: rgba(4, 4, 4, 0.8);
+    width: 379.01px;
+    transform: rotate(0.31deg);
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.7);
+}
+.background_mackbook{
+    position: absolute;
+    width: 1168.32px;
+    height: 685px;
+    left: 336px;
+    top: 169px;
+    background-image: url(/images/Macbook_Pro.png);
+    z-index: 1;
 }
