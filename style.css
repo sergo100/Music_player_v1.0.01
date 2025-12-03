@@ -271,3 +271,35 @@ body{
     background-image: url(/images/Macbook_Pro.png);
     z-index: 1;
 }
+    .desktop5{
+     width: 1440px;
+     height: 536px;
+     position: relative;
+     background: linear-gradient(180.00deg, rgba(213, 48, 5, 1),rgba(0, 0, 0, 1) 4%);
+    }
+    .list_desktop5{
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 452px;
+        list-style: none;
+    }
+
+    .list_desktop5_title{
+        width: 180px;
+        height: 148px;
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration: none;
+    }
+    #text_MPlayer_Store{
+        font-family: Montserrat;
+        font-weight: 600;
+        line-height: 1px;
+        font-size: 20px;
+
+    }
