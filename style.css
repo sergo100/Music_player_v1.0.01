@@ -276,14 +276,22 @@ body{
      height: 536px;
      position: relative;
      background: linear-gradient(180.00deg, rgba(213, 48, 5, 1),rgba(0, 0, 0, 1) 4%);
+    
     }
-    .list_desktop5{
-        position: absolute;
-        margin-top: 120px;
-        margin-left: 452px;
-        list-style: none;
+    .footer_columns {
+    display: flex;
+    padding-top: 120px;
+    padding-left: 452px;    
     }
 
+    .list_desktop5{
+        
+        list-style: none;
+        margin-right: 147px;
+    }
+    .list_desktop5:last-child {
+    margin-right: 62px;
+}
     .list_desktop5_title{
         width: 180px;
         height: 148px;
@@ -291,15 +299,41 @@ body{
         font-family: Montserrat;
         font-size: 16px;
         font-weight: 400;
-        line-height: 18px;
+        line-height: 1px;
         letter-spacing: 0%;
         text-align: left;
         text-decoration: none;
+    
     }
     #text_MPlayer_Store{
         font-family: Montserrat;
         font-weight: 600;
-        line-height: 1px;
+        line-height: 22px;
         font-size: 20px;
 
+    }
+    .logo_desktop5 {
+        position: absolute;
+        left: 110px;
+        top: 344px;
+        width: 138px;
+        height: 100px;
+    }   
+    .footer_columns_title{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        gap: 99px;
+        bottom: 74px;
+        left: 106px;
+    }
+    .text_columns_title{
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration: none;
     }
